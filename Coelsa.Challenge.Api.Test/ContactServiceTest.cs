@@ -51,6 +51,7 @@ namespace Coelsa.Challenge.Api.Test
             var list = await manejador.Handle(request, new System.Threading.CancellationToken());
 
             Assert.NotNull(list);
+            Assert.True(list.ToList().Count() == 4);
             Assert.True(list.ToList()[0].Company == "Coelsa");
 
         }

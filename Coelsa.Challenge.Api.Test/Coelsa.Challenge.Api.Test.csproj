@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Coelsa.challenge\Coelsa.Challenge.Api.csproj" />
+    <ProjectReference Include="..\Coelsa.Challenge.Api\Coelsa.Challenge.Api.csproj" />
   </ItemGroup>
 
 </Project>

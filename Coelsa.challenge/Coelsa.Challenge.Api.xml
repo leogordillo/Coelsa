@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Coelsa.Challenge.Api</name>
+    </assembly>
+    <members>
+        <member name="T:Coelsa.Challenge.Api.Aplication.ContactAdd.ParamAdd">
+            <summary>
+            Clase "Ejecuta" define los parámetros requeridos para 
+            la cración de un nuevo contacto
+            </summary>
+        </member>
+        <member name="T:Coelsa.Challenge.Api.Aplication.ContactAdd.EjecutarValidacion">
+            <summary>
+            Clase "EjecutarValidacion" validaciones requeridas sobre la clase "Ejecuta"
+            </summary>
+        </member>
+        <member name="T:Coelsa.Challenge.Api.Aplication.ContactAdd.Manejador">
+            <summary>
+            Clase "Manejador" desarrolla las reglas de negocio
+            </summary>
+        </member>
+        <member name="T:Coelsa.Challenge.Api.Aplication.Command.ContactDelete.EjecutarValidacion">
+            <summary>
+            Clase "EjecutarValidacion" validaciones requeridas sobre la clase "Ejecuta"
+            </summary>
+        </member>
+        <member name="T:Coelsa.Challenge.Api.Aplication.Command.ContactDelete.Manejador">
+            <summary>
+            Clase "Manejador" desarrolla las reglas de negocio
+            </summary>
+        </member>
+        <member name="T:Coelsa.Challenge.Api.Aplication.Command.ContactUpdate.ParamUpd">
+            <summary>
+            Clase "Ejecuta" define los parámetros requeridos para 
+            la actualización del contacto
+            </summary>
+        </member>
+        <member name="T:Coelsa.Challenge.Api.Aplication.Command.ContactUpdate.EjecutarValidacion">
+            <summary>
+            Clase "EjecutarValidacion" validaciones requeridas sobre la clase "Ejecuta"
+            </summary>
+        </member>
+        <member name="T:Coelsa.Challenge.Api.Aplication.Command.ContactUpdate.Manejador">
+            <summary>
+            Clase "Manejador" desarrolla las reglas de negocio
+            </summary>
+        </member>
+        <member name="T:Coelsa.Challenge.Api.Aplication.CompanyFilter.EjecutarValidacion">
+            <summary>
+            Clase "EjecutarValidacion" validaciones requeridas sobre la clase "ContactList"
+            </summary>
+        </member>
+    </members>
+</doc>
